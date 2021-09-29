@@ -1,3 +1,5 @@
+import javax.sound.midi.Soundbank;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -24,12 +26,12 @@ public class Main {
         // Write your code here
         
         index = 0;
-        while (index < 2) {
+        while (index < 10) {
             System.out.print(index + " ");  // Log like this
             index++;
         }
 
-        System.out.println();   // Make sure to print a blank line
+        System.out.println("\n");   // Make sure to print a blank line
         
         // ----------------------------------------------------------------------------------------------
         System.out.println("Exercise Two");
@@ -42,12 +44,13 @@ public class Main {
         //
         // Write your code here
         
-//         index = 0;
-//         while (index < 15) {
-//           System.out.print(index + " ");
-//         }
-//
-//        System.out.println();
+         index = 0;
+         while (index < 15) {
+            index ++;
+            System.out.print(index + " ");
+         }
+
+        System.out.println("\n");
         
         // ----------------------------------------------------------------------------------------------
         System.out.println("Exercise Three");
@@ -57,9 +60,15 @@ public class Main {
         // - Hint: Look at the reading, there is an example of this.
         // - Hint 2: Remember to set your initial index value
         // Write your code here
-        
-        
-        
+
+        index = 0;
+        while (index < 20) {
+            index ++;
+            System.out.print(index + " ");
+        }
+
+        System.out.println("\n");
+
         // ----------------------------------------------------------------------------------------------
         System.out.println("Exercise Four");
         // - Create another while loop
@@ -69,17 +78,30 @@ public class Main {
         //
         // Write your code here
         
-        
+        index = 0;
+        while (index < 20) {
+            index += 2;
+            System.out.print(index + " ");
+        }
+
+        System.out.println("\n");
+
         // ----------------------------------------------------------------------------------------------
         System.out.println("Exercise Five");
         // - Create another while loop
         // - Make your loop count from 1 to 19, logging only ODD numbers to the console.
         //   1 3 5 7 9 11 13 15 17 19
-        //   (This should include the number 9, and the number 1, but not include the number 0)
+        //   (This should include the number 19, and the number 1, but not include the number 0)
         //
         // Write your code here
-        
-        
+
+        index = 1;
+        while (index <= 19) {
+            System.out.print(index + " ");
+            index += 2;
+        }
+
+        System.out.println("\n");
         // ----------------------------------------------------------------------------------------------
         System.out.println("Exercise Six");
         // - Create another while loop
@@ -89,7 +111,13 @@ public class Main {
         //
         // Write your code here
         
-        
+        index = 0;
+        while (index < 100) {
+            index += 5;
+            System.out.print(index + " ");
+        }
+
+        System.out.println("\n");
         // ----------------------------------------------------------------------------------------------
         System.out.println("Exercise Seven");
         // - Create another while loop
@@ -98,8 +126,14 @@ public class Main {
         //   (This should include the number 20, but not include the number 0)
         //
         // Write your code here
-        
-        
+
+        index = 20;
+        while (index > 0) {
+            System.out.print(index + " ");
+            index --;
+        }
+
+        System.out.println("\n");
         // ----------------------------------------------------------------------------------------------
         System.out.println("Exercise Eight");
         // - Create another while loop
@@ -108,7 +142,14 @@ public class Main {
         //   (This should include the number 20, but not include the number 0)
         //
         // Write your code here
-        
+
+        index = 20;
+        while (index > 0) {
+            System.out.print(index + " ");
+            index -= 2;
+        }
+
+        System.out.println("\n");
         
         // ----------------------------------------------------------------------------------------------
         System.out.println("Exercise Nine");
@@ -118,8 +159,13 @@ public class Main {
         //   (This should include the number 19, but not include the number 0)
         //
         // Write your code here
-        
-        
+
+        index = 19;
+        while (index > 0) {
+            System.out.print(index + " ");
+            index -= 2;
+        }
+        System.out.println("\n");
         // ----------------------------------------------------------------------------------------------
         System.out.println("Exercise Ten");
         // - Create another while loop
@@ -128,9 +174,14 @@ public class Main {
         //   (This should include the number 100, but not include the number 0)
         //
         // Write your code here
-        
-        
-        
+
+        index = 100;
+        while (index > 0) {
+            System.out.print(index + " ");
+            index -= 5;
+        }
+
+        System.out.println("\n");
         // When you are done with these exercises, check the console output to make sure it
         // matches the expected output of each exercise and remove any extraneous System.out.println()
         // statements from your code.
